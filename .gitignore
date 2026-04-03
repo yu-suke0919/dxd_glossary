@@ -21,6 +21,12 @@ pickle-email-*.html
 config/initializers/secret_token.rb
 config/master.key
 
+# 追加推奨
+config/credentials/*.key
+config/database.yml
+config/cable.yml
+# ローカルDB設定など、機密が入りやすいファイル
+
 # Only include if you have production secrets in this file, which is no longer a Rails default
 # config/secrets.yml
 
