@@ -50,7 +50,7 @@ group :development, :test do
   gem "debug", platforms: %i[ mri windows ], require: "debug/prelude"
 
   # 変更
-  gem "rspec-rails", "~> 6.1.0"
+  gem "rspec-rails", "~> 8.0.4"
 
   # Audits gems for known security defects (use config/bundler-audit.yml to ignore issues)
   gem "bundler-audit", require: false
